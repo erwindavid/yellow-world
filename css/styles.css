@@ -2,11 +2,11 @@
 
 .menubtn{float:left; font-size:150%; padding:8px 16px 14px 16px;}
 
-.title{float:left; font-size:150%; color:darkslategray;  margin:2px 0px 0px 5px;}
+.title{float:left; font-size:140%; color:darkslategray;  margin:2px 0px 0px 5px;}
 
-.dot{color:orange}
+.dot{color:blue}
 
-.subtitle{color:gray;  font-size:66%;  margin-top:-6px;}
+.subtitle{color:gray;  font-size:66%;  margin-top:-4px;}
 
 .login{float:right; font-size:200%;  padding:0px 16px 10px 16px;}
 
