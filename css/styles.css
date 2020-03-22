@@ -1,45 +1,11 @@
-.top {
-  position:fixed;
-  background:white;
-  width:100%;
-  margin:0px;
-  padding:0px;
-  font-size:200%;
-  font-family:sans-serif;
-  color:grey
-}
-.menubtn {
-  float:left;
-  padding:10px 18px 15px 18px;
-}
-.title{
-  text-align:left;
-  float:left;
-  color:black;
-  margin:8px;
-}
-.subtitle{
-  color:grey;
-  font-size:50%;
-  margin-top:-5px;
-}
-.login {
-  float:right;
-  display:flex;
-  font-size:150%;
-  padding:0px 18px 10px 18px;
-  margin-right:10px;
-}
-.menubtn:hover{
-  background:lightblue; color:blue; cursor:pointer;
-}
-
-h3 {color:darkslategray;font-family:sans-serif}
-
-.login:hover{
-  background:lightblue; color:blue; cursor:pointer;
-}
-.main{
-  margin-top:60px;
-  padding:10px;
-}
+.top {position:fixed;  background:white;  width:100%; font-size:170%; color:grey;  box-shadow: 0 0 15px lightgray;}
+.menubtn {float:left;  padding:8px 16px 14px 16px;}
+.title{text-align:left;  float:left;  color:black;  margin:8px;}
+.subtitle{color:grey;  font-size:50%;  margin-top:-5px;}
+.login{float:right;  display:flex;  font-size:150%;  padding:0px 16px 10px 16px;  margin-right:10px;}
+.menubtn:hover{background:lightblue;  color:blue; cursor:pointer;}
+.login:hover{background:lightblue; color:blue; cursor:pointer;}
+.main{margin-top:60px;  padding:20px;}
+body {margin:0px; padding:0px;  font-family:sans-serif}
+h3 {color:darkslategray}
+p {font-family:serif}
