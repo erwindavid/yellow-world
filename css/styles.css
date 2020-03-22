@@ -2,7 +2,7 @@
 .menubtn {float:left;  padding:8px 16px 14px 16px;}
 .title{text-align:left;  float:left;  color:black;  margin:8px;}
 .subtitle{color:grey;  font-size:50%;  margin-top:-5px;}
-.login{float:right;  display:flex;  font-size:150%;  padding:0px 16px 10px 16px;  margin-right:10px;}
+.login{float:right;  display:flex;  font-size:150%;  padding:0px 16px 10px 16px;}
 .menubtn:hover{background:lightblue;  color:blue; cursor:pointer;}
 .login:hover{background:lightblue; color:blue; cursor:pointer;}
 .main{margin-top:60px;  padding:20px;}
