@@ -25,11 +25,13 @@
   padding:0px 18px 10px 18px;
 }
 .menubtn:hover{
-  background:lightgrey; color:black;
+  background:lightblue; color:blue; cursor:pointer;
 }
 
+h3 {color:darkslategray;font-family:sans-serif}
+
 .login:hover{
-  background:lightgrey; color:black;
+  background:lightblue; color:blue; cursor:pointer;
 }
 .main{
   margin-top:60px;
