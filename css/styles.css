@@ -4,9 +4,11 @@
 
 .title{ text-align:left;  font-size:100%;  float:left;  color:darkslategray;  margin:5px;}
 
-.subtitle{ color:grey;  font-size:60%;  margin-top:-3px;}
+.dot {color:orange}
 
-.login{float:right;  display:flex;  font-size:150%;  padding:0px 16px 10px 16px;}
+.subtitle{ color:grey;  font-size:60%;  margin-top:-6px;}
+
+.login{float:right;  display:flex;  font-size:140%;  padding:0px 16px 10px 16px;}
 
 .menubtn:hover{ background:rgba(0,127,255,0.05);  color:blue; cursor:pointer;}
 
