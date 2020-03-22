@@ -1,11 +1,21 @@
 .top{position:fixed; color:grey; background: linear-gradient(white, white, white, white, white, ghostwhite); width:100%; box-shadow: 0 0 15px lightgray;}
+
 .menubtn{float:left; font-size:150%; padding:8px 16px 14px 16px;}
+
 .title{float:left; font-size:150%; color:darkslategray;  margin:2px 0px 0px 5px;}
+
 .dot{color:orange}
+
 .subtitle{color:gray;  font-size:66%;  margin-top:-6px;}
+
 .login{float:right; font-size:200%;  padding:0px 16px 10px 16px;}
+
 .menubtn:hover{ background:rgba(0,127,255,0.05);  color:blue; cursor:pointer;}
+
 .login:hover{ background:rgba(0,127,255,0.05); color:blue; cursor:pointer;}
+
 .main{margin-top:60px;  padding:20px;}
+
 body {margin:0px; padding:0px; background: rgb(252, 252, 252); font: status-bar;}
+
 h3 {color:darkslategray}
