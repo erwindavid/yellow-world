@@ -7,7 +7,7 @@
 .menubtn:hover{ background:rgba(0,127,255,0.05);  color:blue; cursor:pointer;}
 .login:hover{ background:rgba(0,127,255,0.05); color:blue; cursor:pointer;}
 .main{margin-top:60px;  padding:20px;}
-.menu{position:relative; animation-name : deroulemenu ; background:yellow; width:30%; min-width:300px; z-index:2;}
+.menu{position:fixed; animation-name:deroulemenu ; animation-duration: 1s; background:yellow; width:30%; min-width:300px; z-index:2;}
 body {margin:0px; padding:0px; background: rgb(252, 252, 252); font: status-bar;}
 h3 {color:darkslategray}
 @keyframes clignotement {from {color:lightgray} to {color:white}}
