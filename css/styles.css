@@ -1,27 +1,39 @@
-.top{position:fixed; color:grey; background:darkslategray; /*linear-gradient(white, white, white, white, white, ghostwhite);*/ width:100%; box-shadow: 0 0 15px lightgray;  z-index:2}
+.top{position:fixed; color:grey; background:darkslategray; /*linear-gradient(white, white, white, white, white, ghostwhite);*/ width:100%; box-shadow: 0 0 10px gray;  z-index:2}
 
 .menubtn {float:left; font-size:150%; padding:8px 16px 13px 16px;}
+
 .menubtn:hover {background:rgba(255,255,255,0.1);  color:lime; cursor:pointer;}
-.menu {position:fixed; border-bottom-right-radius:10px; animation-name:deroulemenu; animation-duration:0.6s; background:white; margin-top:46px; width:38.2%; min-width:300px; z-index:1;box-shadow: 0 0 15px lightgray;}
-.menu a {display:block; color:darkslategray; text-decoration: none; font-size:120%; margin:0; padding:10px; border-bottom:solid 1px lightgray}
-.menu a:hover {background:ghostwhite;}
+
+.menu {border-bottom-right-radius:10px; position:fixed; animation-name:deroulemenu; animation-duration:0.6s; background:white; margin-top:46px; width:38.2%; min-width:300px; z-index:1;box-shadow: 0 0 10px gray;}
+
+.menu a {display:block; color:darkslategray; text-decoration: none; font-size:120%; margin:0; padding:10px; border-top:solid 1px lightgray}
+
+.menu a:hover {background:ghostwhite}
 
 .title {float:left; font-size:130%; color:lime;  margin:5px 0px 0px 5px; font-family:monospace}
+
 .subtitle {color:lightgray;  font-size:65%;  margin-top:-1px; font-family: sans-serif;}
+
 .dot {opacity:0.3;animation-name:clignotement; font-size:95%; animation-duration:1s; animation-iteration-count: infinite;}
+
 .home {color:gray;text-decoration : none; float:right; font-size:200%;  padding:0px 16px 10px 16px;}
+
 .home:hover {background:rgba(255,255,255,0.1); color:lime; cursor:pointer;}
 
 .main {padding:20px;}
+
 body {margin:0px; padding:0px; background: rgb(252, 252, 252); font: status-bar;}
+
 h3 {padding-top:60px; color:darkslategray}
 
 .intro {padding-top:60px; font-style:italic}
 
-
 .footer {display:flex; margin-bottom:20px; color:gray }
+
 .footer div{margin:5px; padding:5px }
+
 .footer a{margin:5px; padding:5px; text-decoration:none; border-radius: 5px}
+
 .footer a:hover{background:lightgray;}
 
 @keyframes clignotement {from {color:darkslategray} to {color:lime} }
