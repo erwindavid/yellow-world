@@ -12,9 +12,13 @@
 body {margin:0px; padding:0px; background: rgb(252, 252, 252); font: status-bar;}
 h3 {padding-top:60px; color:darkslategray}
 .intro {padding-top:60px; font-style:italic}
-.footer {display:flex; padding-bottom:20px; color:gray; background:rgba(235,235,235,1) }
+.footer {text-align:center; padding-bottom:20px; color:gray; background:rgba(235,235,235,1) }
 .footer div{margin:5px; padding:5px }
 .footer a{margin:5px; padding:5px; text-decoration:none;color:darkslategray;}
 .footer a:hover{background:lightgray; border-radius: 5px}
+.contact {text-align:center;background:lightgray;display:block}
+textarea {height:80px;}
+ input, textarea {vertical-align:middle; margin:10px; width:80%; border-radius:5px; border: solid 1px lightgray}
+.formbtn {height:40px}
 @keyframes clignotement {from {color:gold} to {color:yellow} }
 @keyframes deroulemenu {from {left:-300px} to {left:0px}}
