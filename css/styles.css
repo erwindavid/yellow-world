@@ -12,14 +12,14 @@
 body {margin:0px; padding:0px; background: rgb(252, 252, 252); font: status-bar;}
 h3 {padding-top:60px; color:darkslategray}
 .intro {padding-top:60px; font-style:italic}
-.footer {text-align:center; padding-bottom:20px; color:gray; background:rgba(235,235,235,1) }
+.footer {text-align:center; padding:20px; color:gray; background:rgba(235,235,235,1) }
 .footer div{margin:5px; padding:5px }
 .footer a{margin:5px; padding:5px; text-decoration:none;color:darkslategray;}
 .footer a:hover{background:lightgray; border-radius: 5px}
-.contact {text-align:center; background:lightgray; width:100%}
-.form{ width:20%; min-width:200px; display:inline-block;}
+.contact {text-align:center;background:lightgray}
+.form{ display:inline-block; width:20%; min-width:200px;}
 textarea {height:80px;}
-input, textarea {width:100%; margin:10px; border-radius:5px; border:solid 1px lightgray}
-.formbtn { height:30px; margin:20px; border-radius:10px; border:solid 1px lightgray}
+input, textarea {margin:10px; border-radius:5px; border:solid 1px gray}
+.formbtn { height:40px; margin:20px; border-radius:10px; border:solid 1px lightgray}
 @keyframes clignotement {from {color:gold} to {color:yellow} }
 @keyframes deroulemenu {from {left:-300px} to {left:0px}}
