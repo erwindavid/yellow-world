@@ -2,7 +2,7 @@
 
 .menubtn {float:left; font-size:150%; padding:8px 16px 13px 16px;}
 .menubtn:hover {background:rgba(255,255,255,0.1);  color:lime; cursor:pointer;}
-.menu {position:fixed; animation-name:deroulemenu; animation-duration:0.6s; background:white; margin-top:48px; width:38.2%; min-width:300px; z-index:1;box-shadow: 0 0 15px lightgray;}
+.menu {position:fixed; animation-name:deroulemenu; animation-duration:0.6s; background:white; margin-top:46px; width:38.2%; min-width:300px; z-index:1;box-shadow: 0 0 15px lightgray;}
 .menu a {display:block; color:darkslategray; text-decoration: none; font-size:120%; margin:0; padding:10px; border-bottom:solid 1px lightgray}
 .menu a:hover {background:ghostwhite;}
 
