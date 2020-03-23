@@ -18,5 +18,4 @@ h3 {padding-top:60px; color:darkslategray}
 .footer a{margin:5px; padding:5px; text-decoration:none; border-radius: 5px}
 .footer a:hover{background:lightgray;}
 @keyframes clignotement {from {color:darkslategray} to {color:lime} }
-
 @keyframes deroulemenu {from {left:-300px} to {left:0px}}
