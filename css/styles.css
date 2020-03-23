@@ -1,4 +1,4 @@
-.top{position:fixed; color:grey; background: linear-gradient(white, white, white, white, ghostwhite); width:100%; box-shadow: 0 0 15px lightgray;}
+.top{position:fixed; color:grey; background: linear-gradient(white, white, white, white, white, ghostwhite); width:100%; box-shadow: 0 0 15px lightgray;}
 .menubtn{float:left; font-size:150%; padding:8px 16px 14px 16px;}
 .title{float:left; font-size:130%; color:darkslategray;  margin:2px 0px 0px 5px; font-family:monospace}
 .subtitle{color:gray;  font-size:66%;  margin-top:-1px; font: status-bar;}
@@ -7,6 +7,8 @@
 .menubtn:hover{ background:rgba(0,127,255,0.05);  color:blue; cursor:pointer;}
 .login:hover{ background:rgba(0,127,255,0.05); color:blue; cursor:pointer;}
 .main{margin-top:60px;  padding:20px;}
+.menu{position:relative; animation-name : deroulemenu ; background:yellow; width:30%; min-width:300px; z-index:2;}
 body {margin:0px; padding:0px; background: rgb(252, 252, 252); font: status-bar;}
 h3 {color:darkslategray}
 @keyframes clignotement {from {color:lightgray} to {color:white}}
+@keyframes deroulemenu {from {left:-300px} to {left:0px}}
