@@ -1,14 +1,18 @@
 <!DOCTYPE html>
+
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <meta name="theme-color" content="darkslategray">
+  <meta name="theme-color" content="gold">
   <link href="css/styles.css" rel="stylesheet">
   <link href="images/favicon.png" rel="icon" type="image/png"/>
+  <link href="https://fonts.googleapis.com/css?family=Dokdo|Just+Me+Again+Down+Here&display=swap" rel="stylesheet">
   <title>Erwin David portfolio</title>
 </head>
 <body>
+
     <!--menu navigation-->
   <nav class="menu" id="menu">
     <a onclick="close_menu()" href="#intro">About</a>
@@ -18,14 +22,17 @@
     <a onclick="close_menu()" href="javascript:void(0)">Close</a>
   </nav>
   <!--menu haut-->
+
   <div class="top">
     <div class="menubtn" title="Menu" id="menubtn" onclick="open_menu()">☰</div>
     <a class="home" title="home" href="#intro">⌂</a>
-    <div class="title">erwin.david<span class="dot">█</span>
-      <div class="subtitle">DEVELOPER & DATA ENGINEER</div>
+    <div class="title" title="contact"><a href="mailto:erwin.t.david@gmail.com">Erwin<span class="dot">.t.</span>David<span class="dot">@gmail.com</span></a>
+      <div class="subtitle">Developer & Data engineer</div>
     </div>
   </div>
+
   <!--contenu-->
+
   <div class="main">
     <div class="intro" id="intro">Ut velit mauris, egestas sed, gravida nec, ornare ut, mi.</div>
     <div id="p1">
@@ -52,11 +59,13 @@
       </p>
     </div>
   </div>
+
   <!--footer-->
   <div class="footer">
     <div>©2020 Erwin David</div>
     <a href="mailto:erwin.t.david@gmail.com ?subject=Demande d'informations portfolio">Contact</a>
   </div>
+  
     <script>
       function open_menu() {
       document.getElementById("menu").style.display = "block";
@@ -65,5 +74,6 @@
       document.getElementById("menu").style.display = "none";
       }
     </script>
+  
 </body>
 </html>
