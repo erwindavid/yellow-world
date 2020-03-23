@@ -3,26 +3,25 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" type="image/png" href="images/favicon.png" />
+  <link href="css/styles.css" rel="stylesheet">
   <title>Erwin David portfolio</title>
 </head>
 <body>
   <!--menu haut-->
   <div class="top">
-    <div class="menubtn" id="menubtn" href="#intro">☰</div>
+    <div class="menubtn" id="menubtn" onclick="open_menu()">☰</div>
     <div class="title">erwin david<span class="dot">_</span>
-      <div class="subtitle">Developer & Data engineer</div>
+      <div class="subtitle">Developer & Data enginer</div>
     </div>
     <div class="login" title="login">⌂</div>
   </div>
-  <!--menu navigation-->
+    <!--menu navigation-->
   <nav class="menu" id="menu">
-    <a href="#intro">About</a>
-    <a href="#p1">Lorem ipsum</a>
-    <a href="#p2">Aliquam convallis</a>
-    <a href="#p3">Suspendisse ut orci</a>
-    <a>Close</a>
+    <a onclick="close_menu()" href="#intro">About</a>
+    <a onclick="close_menu()" href="#p1">Lorem ipsum</a>
+    <a onclick="close_menu()" href="#p2">Aliquam convallis</a>
+    <a onclick="close_menu()" href="#p3">Suspendisse ut orci</a>
+    <a onclick="close_menu()" href="javascript:void(0)">Close</a>
   </nav>
   <!--contenu-->
   <div class="main">
@@ -51,10 +50,20 @@
       </p>
     </div>
   </div>
+
   <!--footer-->
   <div class="footer">
     <div>©2020 Erwin David</div>
     <div>Contact</div>
   </div>
 </body>
+  <script>
+    function open_menu() {
+    document.getElementById("menu").style.display = "block";
+  }
+
+  function close_menu() {
+    document.getElementById("menu").style.display = "none";
+  }
+    </script>
 </html>
