@@ -7,7 +7,7 @@
 .menubtn:hover{ background:rgba(0,127,255,0.05);  color:blue; cursor:pointer;}
 .login:hover{ background:rgba(0,127,255,0.05); color:blue; cursor:pointer;}
 .main{margin-top:60px;  padding:20px;}
-.menu{position:relative; animation-name : deroulemenu ; background:white; width:38.2%; min-width:300px; z-index:2;box-shadow: 0 0 15px lightgray;}
+.menu{position:fixed; animation-name : deroulemenu ; background:white; width:38.2%; min-width:300px; z-index:2;box-shadow: 0 0 15px lightgray;}
 body {margin:0px; padding:0px; background: rgb(252, 252, 252); font: status-bar;}
 h3 {color:darkslategray}
 a{display:block; color:darkslategray; text-decoration: none; font-size:120%; margin:0; padding:10px; border-bottom:solid 1px lightgray}
