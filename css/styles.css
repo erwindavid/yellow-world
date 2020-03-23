@@ -16,9 +16,9 @@ h3 {padding-top:60px; color:darkslategray}
 .footer div{margin:5px; padding:5px }
 .footer a{margin:5px; padding:5px; text-decoration:none;color:darkslategray;}
 .footer a:hover{background:lightgray; border-radius: 5px}
-.contact {text-align:center;background:lightgray;display:block}
+.contact {text-align:center;background:lightgray;display:inline-block; width:100%}
 textarea {height:80px;}
- input, textarea {vertical-align:middle; margin:10px; width:80%; border-radius:5px; border: solid 1px lightgray}
-.formbtn {height:40px}
+ input, textarea {vertical-align:middle; margin:10px; width:80%; border-radius:5px; border:solid 1px lightgray}
+.formbtn {height:30px; margin:20px; border-radius:10px; border:solid 1px lightgray}
 @keyframes clignotement {from {color:gold} to {color:yellow} }
 @keyframes deroulemenu {from {left:-300px} to {left:0px}}
