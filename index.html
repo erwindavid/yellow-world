@@ -8,14 +8,6 @@
   <title>Erwin David portfolio</title>
 </head>
 <body>
-  <!--menu haut-->
-  <div class="top">
-    <div class="menubtn" id="menubtn" onclick="open_menu()">☰</div>
-    <div class="title">erwin david<span class="dot">_</span>
-      <div class="subtitle">Developer & Data enginer</div>
-    </div>
-    <div class="login" title="login">⌂</div>
-  </div>
     <!--menu navigation-->
   <nav class="menu" id="menu">
     <a onclick="close_menu()" href="#intro">About</a>
@@ -24,6 +16,14 @@
     <a onclick="close_menu()" href="#p3">Suspendisse ut orci</a>
     <a onclick="close_menu()" href="javascript:void(0)">Close</a>
   </nav>
+  <!--menu haut-->
+  <div class="top">
+    <div class="menubtn" id="menubtn" onclick="open_menu()">☰</div>
+    <div class="title">erwin david<span class="dot">_</span>
+      <div class="subtitle">Developer & Data enginer</div>
+    </div>
+    <div class="login" title="login">⌂</div>
+  </div>
   <!--contenu-->
   <div class="main">
     <div class="intro" id="intro">Ut velit mauris, egestas sed, gravida nec, ornare ut, mi.</div>
@@ -51,20 +51,18 @@
       </p>
     </div>
   </div>
-
   <!--footer-->
   <div class="footer">
     <div>©2020 Erwin David</div>
-    <div>Contact</div>
+    <a href="#intro">Contact</a>
   </div>
-</body>
-  <script>
-    function open_menu() {
-    document.getElementById("menu").style.display = "block";
-  }
-
-  function close_menu() {
-    document.getElementById("menu").style.display = "none";
-  }
+    <script>
+      function open_menu() {
+      document.getElementById("menu").style.display = "block";
+      }
+      function close_menu() {
+      document.getElementById("menu").style.display = "none";
+      }
     </script>
+</body>
 </html>
