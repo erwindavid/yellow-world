@@ -9,7 +9,6 @@
 .subtitle {color:goldenrod;  font-size:80%; font-family:'Just Me Again Down Here';   margin-top:-15px;}
 .dot {opacity:0.3;animation-name:clignotement; font-size:100%; animation-duration:1s; animation-iteration-count: infinite;}
 .home {color:darkslategray;text-decoration : none; float:left; font-size:200%;  padding:0px 16px 10px 16px;}
-.home:hover {background:white; cursor:pointer;}
 .main {padding:20px;}
 body {margin:0px; padding:0px; background: rgb(252, 252, 252); font: status-bar;}
 h3 {padding-top:60px; color:darkslategray}
